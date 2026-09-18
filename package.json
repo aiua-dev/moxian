@@ -1,7 +1,23 @@
 {
   "name": "moxian",
   "version": "0.1.0",
-  "description": "墨线：面向中文长篇创作的连续性内核与 CLI",
+  "description": "墨线：面向中文长篇创作的连续性内核与 CLI。管伏笔、人物、时间线、设定与大纲，按章给 agent 递料",
+  "keywords": [
+    "小说",
+    "网文",
+    "写作",
+    "创作",
+    "连续性",
+    "伏笔",
+    "novel",
+    "fiction",
+    "writing",
+    "continuity",
+    "cli",
+    "agent"
+  ],
+  "author": "An-6021",
+  "license": "AGPL-3.0-or-later",
   "type": "module",
   "bin": {
     "moxian": "./dist/cli.js"
@@ -18,12 +34,20 @@
   "engines": {
     "node": ">=20"
   },
-  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/An-6021/moxian.git"
+  },
+  "homepage": "https://github.com/An-6021/moxian#readme",
+  "bugs": {
+    "url": "https://github.com/An-6021/moxian/issues"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsx src/cli.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "test": "tsc -p tsconfig.json && vitest run"
+    "test": "tsc -p tsconfig.json && vitest run",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "commander": "^15.0.0",
