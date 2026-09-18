@@ -36,11 +36,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/An-6021/moxian.git"
+    "url": "git+https://github.com/aiua-dev/moxian.git"
   },
-  "homepage": "https://github.com/An-6021/moxian#readme",
+  "homepage": "https://github.com/aiua-dev/moxian#readme",
   "bugs": {
-    "url": "https://github.com/An-6021/moxian/issues"
+    "url": "https://github.com/aiua-dev/moxian/issues"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
