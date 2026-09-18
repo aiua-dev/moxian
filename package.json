@@ -1,5 +1,8 @@
 {
-  "name": "moxian",
+  "name": "@aiua/moxian",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.1.0",
   "description": "墨线：面向中文长篇创作的连续性内核与 CLI。管伏笔、人物、时间线、设定与大纲，按章给 agent 递料",
   "keywords": [

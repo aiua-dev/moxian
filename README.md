@@ -23,10 +23,10 @@ A continuity kernel and CLI for long-form Chinese fiction. It tracks foreshadowi
 ## 安装
 
 ```bash
-npm install -g moxian
+npm install -g @aiua/moxian
 ```
 
-需要 Node 20 以上。依赖只有 commander、yaml、zod。
+需要 Node 20 以上。依赖只有 commander、yaml、zod。装完敲的命令是 `moxian`，包名带 scope，命令名不带。
 
 ## 快速开始
 
